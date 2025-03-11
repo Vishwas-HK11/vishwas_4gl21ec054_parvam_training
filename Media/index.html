@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- internal css -->
+        <style>
+            /*syntax: */
+            /* selector{
+                property1 : value;
+                property2 : value;
+                }*/
+                h1{ /*this is element selector*/
+                    color: rgb(255, 22, 64);
+                    margin: 20px;
+                    margin-right: 3px;
+                    margin-left: 3px;
+                    padding: 20px;
+                    padding-right: 30px;
+                    padding-right: 30px;
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                     border: 3px solid black;
+                     /* syntax: for shorthand property; */
+                     /* margin: top right bottom left - clockwise direction; */
+                     margin: 50px 10px 20px 40px;
+                     /* opposite direction: topbottom ; */
+                     margin: 30px 60px;
+                    }
+                p{/*this is element selector*/
+                    color: rgb(42, 50, 165);   
+                }
+                table{
+                    border-color: blueviolet;
+                    border-width: 5px;
+                    border-style: dashed;
+                    /* border-style:dashed,solid,groove,ridge; */
+                    /* shorthand property */
+                    /* syntax: border: width style color; */
+                    /* border-radius: curved; */
+                    border-radius: 20px;
+                    border-top: 10px groove green;
+                    border-bottom: 10px solid red;
+                    border-top-right-radius: 5px;
+                    border-bottom-right-radius: 5px;
+                    border-top-left-radius: 5px;
+                    border-bottom-left-radius: 5px;
+                    padding: 2px;
+            }
+            th{
+                background-color: rgba(250,30, 1);
+                color: rgb(7, 7, 24);
+            }
+            td{
+                color: rgba(218, 222, 236);
+            }
+            tr{
+                background-color: rgb(37, 4, 75);
+                color: #10b220;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- ther are 3 types of css in web development -->
+        <!-- internal css, external css & inline css -->
+        <h1>Class Time Table of 2024-2025:</h1>
+        <h1>ECE Department 7th semester:</h1>
+        <p>This is a paragraph Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae sed unde doloremque natus veniam id excepturi omnis sapiente, assumenda corrupti et neque fugit similique quod vitae inventore distinctio facilis hic.</p>
+        <!-- we have different kind of selectors in css -->
+        <!-- they are: element selector, class selector, id selector -->
+        <!-- Elements selector includes all HTML tags -->
+        <table>
+            <tr>
+                <th>Days & Timing</th>
+                <th>9:30AM-10.30AM</th>
+                <th>10:30AM-11.30AM</th>
+                <th>11:30AM-12.30AM</th>
+                <th>12:30AM-1.30PM</th>
+                <th rowspan="7">lunch break</th>
+                <th>2:30PM-3:30PM</th>
+                <th>3:30PM-4:30PM</th>
+                
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>O&WC</td>
+                <td>ADV-VLSI</td>
+                <td>PIP</td>
+                <td>BSP</td>
+                <!-- <td>Lunch Break</td> -->
+                <td rowspan="6" colspan="2">Project Work</td>
+                
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>NS</td>
+                <td>PIP</td>
+                <td>O&WC</td>
+                <td>ADV-VLSI</td>
+                <!-- <td>Lunch Break</td> -->
+                <!-- <td>Project Work</td> -->
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>PIP</td>
+                <td>BSP</td>
+                <td>NS</td>
+                <td>ADV-VLSI</td>
+                <!-- <td>Lunch Break</td> -->
+                <!-- <td>Project Work</td> -->
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>PIP</td>
+                <td>NS</td>
+                <td>BSP</td>
+                <td>O&WC</td>
+                <!-- <td>Lunch Break</td> -->
+                <!-- <td>Project Work</td> -->
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>O&WC</td>
+                <td>ADV-VLSI</td>
+                <td>PIP</td>
+                <td>BSP</td>
+                <!-- <td>Lunch Break</td> -->
+                <!-- <td>Project Work</td> -->
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>O&WC</td>
+                <td>ADV-VLSI</td>
+                <td>PIP</td>
+                <td>BSP</td>
+                <!-- <td>Lunch Break</td> -->
+                <!-- <td>Project Work</td> -->
+            </tr>
+
+        </table>
+    </body>
+</html>
