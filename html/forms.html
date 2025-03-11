@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form method="post" action="">
+        <input type="hidden" name="secret" id="secret_id" value="bond-007">
+        <label for="USN">USN:</label>
+         <input type="text" name="USN" id="USN" value="4GL21EC0 "Readonly><br><br>
+         <label for="first_name">first_name</label>
+         <input type="text" name="first_name" id="first_name" placeholder="enter your name"><br><br>
+        <label for="middle_name">Middel Name:</label>
+         <input type="text" name="middle_name" id="middle_name"><br><br>
+        <label for="last_name">Last Name:</label>
+         <input type="text" name="last_name" id="last_name"><br><br>
+        <label for="email_id">Email ID:</label>
+         <input type="email" name="email_id" id="email_id" autofocus><br><br>
+        <label for="password">Passsword:</label>
+         <input type="password" name="password" id="password" placeholder="enter 8 digit number"><br><br>
+        <label for="phone_number">Phone number:</label>
+         <input type="phone_numbers" name="phone_number" id="phone_number"  value="=+91-7647476544"><br><br>
+        <label for="age">Age:</label>
+         <input type="number" name="age" id="age" step="2"><br><br>
+        <label for="dob">DOB:</label>
+         <input type="date" name="dob" id="dob" min="2000-01-01" max="2026-12-31"><br><br>
+        <label for="birthday_week">Birthday Week:</label>
+         <input type="week" name="birthday_week" id="birthday_week"><br><br>
+        <label for="birthday_month">Birth Month:</label>
+         <input type="month" name="birthday_month" id="birthday_month"><br><br>
+        <label for="birth_time">Birthday Time</label>        
+         <input type="time" name="birth_time" id="birth_time"><br><br>
+        <label for="dob_time">DOB with Birthday Time</label>        
+         <input type="datetime-local" name="dob_time" id="dob_time"><br><br>
+        <label for="gender">Gender</label>        
+         <input type="radio" name="gender1" id="male">
+        <label for="male">Male</label>        
+         <input type="radio" name="gender2" id="female">
+        <label for="female">Female</label>        
+         <input type="radio" name="gender" id="gender">
+        <label for="others">Other</label><br><br>
+        <label for="profile_photo">Profile Photo:</label>        
+         <input type="file" name="profile_photo" id="profile_photo" multiple accept="application/docs"> <br><br>
+
+        <label for="subjects">Favourite Subjects</label>        
+         <input type="checkbox" name="subject1" id="maths">
+        <label for="maths">Mathematics</label>        
+         <input type="checkbox" name="subject2" id="social_science">
+        <label for="social_science">Social Science</label>        
+         <input type="checkbox" name="social_science" id="kannada">
+        <label for="kannada">Kannada</label><br><br>
+        <label for="sates">select state:</label>
+        <select name="state" id="state">
+            <option value="KA">Karnataka</option>
+            <option value="TN">Tamilnadu</option>
+            <option value="AP">Andrapradesh</option>
+            <option value="TG">Telangana</option>
+            <option value="RS">Rajastan</option>
+            <option value="GO">Goa</option>
+            <option value="KL">Kerala</option>
+        </select><br><br>
+
+        <label for="rating">Give your Rating</label>
+        <input type="range" name="rating" id="rating" min="0" max="10"><br><br> w
+        <label for="address">address:</label>
+        <textarea name="address" id="address" row="10" cols="40"></textarea><br><br>
+        <input type="submit">
+        <input type="reset">
+        </form>
+</body>
+</html>
