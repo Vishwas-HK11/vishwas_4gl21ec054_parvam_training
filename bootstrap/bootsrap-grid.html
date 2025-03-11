@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <style>
+      .Flex-container{
+        height: 500px;
+        border: 1px solid green;
+      }
+      .row > .grid-column{
+        background-color: green;
+        color: rgb(24, 15, 15);
+        border: 2px solid black;
+      }
+    </style>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-success">Hello World</h1>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        click for details
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                <p>launch demo model</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="flexd-container d-flex flex-row justify-content-evently align-content-center gap-5 flex-wrap m-3">
+        <div class="p-2 bg-warning text-danger">flex item-1</div>
+        <div class="p-2 bg-warning text-dark">flex item-2</div>
+        <div class="p-2 bg-primary text-light">flex item-3</div>
+        <div class="p-2 bg-success text-light">flex item-4</div>
+        <div class="p-2 bg-info text-light">flex item-5</div>
+        <div class="p-2 bg-success text-light">flex item-6</div>
+        <div class="p-2 bg-dark text-light">flex item-7</div>
+        <div class="p-2 bg-secondary text-light">flex item-8</div>
+        <div class="p-2 bg-light text-dark">flex item-9</div>
+        <div class="p-2 bg-success text-light">flex item-10</div>
+        <div class="p-2 bg-light text-dark">flex item-11</div>
+        <div class="p-2 bg-light text-dark">flex item-12</div>
+        <div class="p-2 bg-light text-info">flex item-13</div>
+
+      </div>
+      <div class="row">
+        <div class="grid-column col-1">column 1</div>
+        <div class="grid-column col-2">column 2</div>
+        <div class="grid-column col-3">column 3</div>
+        <div class="grid-column col-6">column 4</div>
+        <div class="grid-column col-7">column 5</div>
+        <div class="grid-column col-5">column 6</div>
+        <div class="grid-column col-3">column 7</div>
+        <div class="grid-column col-3">column 8</div>
+        <div class="grid-column col-3">column 9</div>
+        <div class="grid-column col-3">column 10</div>
+        <div class="grid-column col-4">column 11</div>
+        <div class="grid-column col-4">column 12</div>
+        <div class="grid-column col-4">column 13</div>
+      </div>
+        <div class="row bg-success text-dark">
+        <div class="col-lg-4 col-md-6 col-sm-12 big-info">column 1</div>
+        <div class="col-lg-4 col-md-6 col-sm-12 big-warning">column 2</div>
+        <div class="col-lg-4 col-md-6 col-sm-12 big-success">column 3</div>
+        <div class="col-lg-4 col-md-6 col-sm-12 big-secondary">column 4</div>
+        <div class="col-lg-4 col-md-6 col-sm-12 big-primary">column 5</div>
+        <div class="col-lg-4 col-md-6 col-sm-12 big-info">column 6</div>
+        <div class="col-lg-4 col-md-6 col-sm-12 big-info">column 7</div>
+        <div class="col-lg-4 col-md-6 col-sm-12 big-info">column 8</div>
+        <div class="col-lg-4 col-md-6 col-sm-12 big-info">column 9</div>
+    </div>
+    <form class="container row p-4 border border-2 my-3">
+  
+        <div class="mb-3 col-mb-6">
+          <label for="Name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="Name">
+          
+        </div>
+        <div class="mb-3 col-mb-6">
+          <label for="exampleInputemail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 col-mb-6">
+          <label for="phone number" class="form-label">phone number</label>
+          <input type="tell" class="form-control" id="phone number">
+        </div>
+        <div class="mb-3  col-mb-6">
+          <label for="exampleInputPassword1" class="form-label">password</label>
+          <input type="password" class="form-control" id="password">
+        </div>
+        
+        <button type="reset" class="btn btn-primary mx-2">Reset</button>
+        <button type="submit" class="btn btn-primary mx-2">Submit</button>
+      </form>
+    </form>
+</div>
+<script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

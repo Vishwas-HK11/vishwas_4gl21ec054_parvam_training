@@ -1,0 +1,15 @@
+.parent{
+    border: 5px solid brown;
+    display: flex;
+    /* justify-content handels the horizontal direction:  or x plane*/
+    justify-content: space-evenly;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: darkmagenta;
+    border: 1px solid white;
+    font-size: 30px;
+    color: azure;
+    font-size: 30px;
+}
