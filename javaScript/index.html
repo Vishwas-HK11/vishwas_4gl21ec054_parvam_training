@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* this is a CSS comment */
+    </style>
+</head>
+<body>
+    <!-- vishwas HK -->
+    <!-- pascal Case - vishwasHK -->
+    <!-- camel Csae -  vishwasHK -->
+    <!-- snake Case - vishwas_HK -->
+
+    <!-- this is html comment -->
+    <script>
+    //  this is a javascript comment 
+    // primitive data types Include:string
+    var firstName;
+    firstName = "vishwas";
+    console.log(firstName);
+    console.log(typeof(firstName));
+
+    var lastName;
+    lastName = "HK";
+    console.log(lastName);
+    console.log(typeof(lastName));
+
+
+    var age = 21;
+    console.log(age);
+    console.log(typeof(age));
+
+    var percent = 80.25;
+    console.log(percent);
+    console.log(typeof(percent));
+
+
+    var isIndian = true;
+    console.log(isIndian);
+    console.log(typeof(isIndian));
+
+    var isEngineer;
+    console.log(isEngineer);
+
+    var isEmployee = null;
+    console.log(isEmployee);
+
+    console.log("MY name is " + firstName + " "+ lastName + ". I'm " + age + " years old.");
+    // using template literals
+    console.log(`My name is ${firstName} ${lastName}. I'm ${age} years old.`);
+
+    var person = {
+        name : "vishwas .HK",
+        age : 21,
+        gender : "male",
+        company : "GECK"
+
+    };
+    console.log(person);
+    console.log(typeof(person));
+
+    var evenNumbers = [2, 4, 6, 8, 10,];
+    console.log(evenNumbers);
+    console.log(typeof(evenNumbers));
+
+    // operators in Js
+    // arithematic operators: +,-,*,/,%,**
+    var op1 = 10, op2 = 20;
+    var sum = op1 + op2;
+    var diff = op1 - op2;
+    var prod = op1 * op2;
+    var quot = op2 / op1;
+    var rem = op1 % op2;
+    var pow = op1 ** 5;
+    console.log("The arithmetic operations are as follows");
+    console.log(`sum of ${op1} & ${op2}: ${sum}`);
+    console.log(`Difference of ${op1} & ${op2}: ${diff}`);
+    console.log(`proud of ${op1} & ${op2}: ${prod}`);
+    console.log(`Quetient of ${op1} & ${op2}: ${quot}`);
+    console.log(`modulus or remainder of ${op1} & ${op2}: ${rem}`);
+    console.log(`exponent of ${op1} to the power of 5: ${pow}`);
+
+    var a;
+    console.log(`assignment of the variable a: ${a = 5}`);
+    console.log(`sum & assignment: ${sum += op1}`);
+    console.log(`difference & assignment: ${diff -= op1}`);
+    console.log(`product & assignment: ${prod *= op1}`);
+    console.log(`quotient & assignment: ${quot /= op1}`);
+
+    // relational/comparison operators: >,<,>=,<=,==,!=,===
+    var x = 10, y=20, z=20, s='20';
+       console.log(`${x} is lesser than ${y}: ${x < y} `)
+       console.log(`${y} is greater than ${x}: ${y > x} `)
+       console.log(`${x} is lesser than or equal to  ${y}: ${x <= y} `)
+       console.log(`${y} is greater than or equal to  ${x}: ${y >= x} `)
+       console.log(`${y} is equal to  ${z}: ${y == z} `)
+       console.log(`${x} is equal to  ${y}: ${x != y} `)
+       console.log(`${y} is equal to  ${s}: ${y == s} `)
+       console.log(`${y} is strictly equal to  ${s}: ${y === s}. It is false, 
+       Because y is ${typeof(y)} and s is ${typeof(s)} `)
+
+    //  logical operators: AND(&&), OR(||), NOT(!)
+    var isIndian = true;
+    var isForeigner = false;
+    var isAdult = true;
+    var isMinor = false;
+
+    console.log(`The person can vote: ${isIndian && isAdult}`);
+    console.log(`The person can vote: ${isIndian && isMinor}`);
+    console.log(`The person can vote: ${isIndian || isAdult}`);
+    console.log(`The person can vote: ${isIndian || isMinor}`);
+    console.log(`The person can vote: ${isIndian && (!isForeigner)}`);
+    console.log(`The person can vote: ${isIndian && (!isMinor)}`);
+
+    //  AND:     OR:     NOT:
+    // A B R    A B R    A R
+    // 0 0 0    0 0 0    0 1
+    // 0 1 0    0 1 1    1 0
+    // 1 0 0    1 0 1
+    // 1 1 1    1 1 1
+
+    //  Increment & decrement operator: ++, --
+    var count = 1;
+    // pre-decrement & pre-Increment
+    console.log(++count);
+    console.log(count);
+    console.log(--count);
+    console.log(count);
+    console.log(`------`);
+
+    // post-Increment & post-Decrement
+    console.log(count++);
+    console.log(count);
+    console.log(count--);
+    console.log(count);
+
+    
+    </script>
+    
+</body>
+</html>
